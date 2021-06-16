@@ -18,5 +18,13 @@ namespace Activity5
                 integerInput = Convert.ToInt32(Console.ReadLine());
             }
         }
+
+        public void DisplayEveryInteger()
+        {
+            foreach(int num in listOfNumbers)
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 }
