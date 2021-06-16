@@ -18,5 +18,19 @@ namespace Activity5
                 integerInput = Convert.ToInt32(Console.ReadLine());
             }
         }
+
+        public void RealDisplayMethod()
+        {
+            Console.WriteLine("Menu:");
+            Console.WriteLine("1. Display the whole list of input");
+            Console.WriteLine("2. Display every even number");
+            Console.WriteLine("3. Display every odd number");
+            Console.WriteLine("4. Display every 5th number");
+            Console.WriteLine("5. Display the sum of the integers");
+            Console.WriteLine("6. Display every number divisibly by 3");
+            Console.WriteLine("7. Quit");
+
+        }
     }
+
 }
