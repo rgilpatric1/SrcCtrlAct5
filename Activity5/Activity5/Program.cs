@@ -18,5 +18,22 @@ namespace Activity5
                 integerInput = Convert.ToInt32(Console.ReadLine());
             }
         }
+
+        public static void quit()
+        {
+            System.Environment.Exit(0);
+        }
+
+        public static void oddNumbers(ArrayList list)
+        {
+            foreach (int i in list)
+            {
+                if (i % 2 == 1)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+        }
     }
 }
