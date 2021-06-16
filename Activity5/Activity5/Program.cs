@@ -27,7 +27,7 @@ namespace Activity5
             Console.WriteLine("3. Display every odd number");
             Console.WriteLine("4. Display every 5th number");
             Console.WriteLine("5. Display the sum of the integers");
-            Console.WriteLine("6. Display every number divisibly by 3");
+            Console.WriteLine("6. Display every number divisible by 3");
             Console.WriteLine("7. Quit");
 
         }
