@@ -6,6 +6,28 @@ namespace Activity5
     {
       
    static ArrayList listOfNumbers = new ArrayList();
+
+        public static String everyFifth()
+        {
+            String everyFifthNum = "";
+            for (int i = 0; i < listOfNumbers.Count; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    everyFifthNum = everyFifthNum + " " + listOfNumbers[i];
+                }
+            }
+            return everyFifthNum;
+        }
+        public static int sumNum()
+        {
+            int sum = 0;
+            foreach (var item in listOfNumbers)
+            {
+                sum += item;
+            }
+            return sum;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Enter number(Enter -999 to quit):");
